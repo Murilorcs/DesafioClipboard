@@ -59,7 +59,7 @@
 
 #box-text {
     text-align: center;
-    width: 620px;
+    max-width: 620px;
     margin-top: 20px;
     font-family: 'Bai Jamjuree', sans-serif;
     color: hsl(201, 11%, 66%);
@@ -312,7 +312,10 @@ li a {
     .container{
         display: flex;
         align-items: center;
-        font-size: 1em;
+    }
+
+    .container h1{
+        font-size: 22px;
     }
 
     .box-access {
@@ -321,6 +324,10 @@ li a {
         justify-content: center;
         flex-direction: column;
         text-align: center;
+    }
+
+    #box-text{
+        max-width: 400px;
     }
 
     #image-computer img{
@@ -336,6 +343,23 @@ li a {
 
     #box-text-two{
         margin-top: 150px;
+        text-align: center;
+    }
+
+    #box-text-two p{
+        max-width: 325px;
+    }
+
+    #box-text-three{
+        text-align: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #box-text-three p{
+        max-width: 300px;
+        text-align: center;
     }
 
     .box-supercharge #box-text-three{
