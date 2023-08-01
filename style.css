@@ -355,16 +355,12 @@ li a {
         display: flex;
         align-items: center;
         flex-direction: column;
+        margin-top: 20px;
     }
 
     #box-text-three p{
         max-width: 300px;
         text-align: center;
-    }
-
-    .box-supercharge #box-text-three{
-        margin-top: 20px;
-        
     }
 
     #image-device{
